@@ -9,35 +9,50 @@
       href="https://fonts.googleapis.com/css?family=Satisfy"
     />
 
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Parcial 1 Leon Seubert</title>
   </head>
   <body>
     <header>
       <div class="header-bar">
         <span>Restaurant & Lounge</span>
-        <div>
-          <img src="./img/logo.png" />
+        <button class="header-cart">
+          <img src="./img/logo.png" alt="The logo of the company" />
           <span class="header-count">0 items</span>
-        </div>
+        </button>
       </div>
       <div class="header-background">
-        <img src="./img/hamburger.png" />
+        <img src="./img/hamburger.png" alt="The background photo" />
       </div>
+
       <nav>
         <ul class="header-list">
-          <li><a href="#" data-index="1">Burgers</a></li>
-          <li><a href="#" data-index="2">Tacos</a></li>
-          <li><a href="#" data-index="3">Salads</a></li>
-          <li><a href="#" data-index="4">Desserts</a></li>
-          <li><a href="#" data-index="5">Drinks & Sides</a></li>
+          <li><button data-index="1">Burgers</button></li>
+          <li><button data-index="2">Tacos</button></li>
+          <li><button data-index="3">Salads</button></li>
+          <li><button data-index="4">Desserts</button></li>
+          <li><button data-index="5">Drinks & Sides</button></li>
         </ul>
       </nav>
     </header>
+    <section class="container">
+      <h1 class="selection-header">Burgers</h1>
+    </section>
 
-    <h1 class="selection-header">Burgers</h1>
+    <div class="card-container"></div>
 
-    <section class="card-container"></section>
+    <footer class="footer">
+      <div class="footer-contact">
+        <span>Contact us: </span>
+        <a href="tel:+573102105253">+573102105253</a>
+      </div>
+      <div class="footer-mail">
+        <a href="mailto:info@restaurant.com">info@restaurant.com</a>
+      </div>
+      <div class="footer-social">
+        <a href="@restaurant">@restaurant</a>
+      </div>
+    </footer>
 
     <script src="index.js"></script>
   </body>

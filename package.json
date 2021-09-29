@@ -1,0 +1,25 @@
+{
+  "name": "parcial1-funcionalidades2-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass ./sass/main.scss ./css/style.css -w",
+    "compile:sass": "node-sass ./sass/main.scss ./css/style.css",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lseubert/Parcial_ISIS3710.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lseubert/Parcial_ISIS3710/issues"
+  },
+  "homepage": "https://github.com/lseubert/Parcial_ISIS3710#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "node-sass": "^6.0.1"
+  }
+}

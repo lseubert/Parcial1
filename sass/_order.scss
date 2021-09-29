@@ -1,0 +1,60 @@
+.table {
+  width: 100%;
+  padding: 2rem;
+
+  th {
+    padding: $section-padding;
+    background: $white-color;
+  }
+
+  &-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+  }
+}
+
+td {
+  padding: 1rem 0;
+  font-weight: 400;
+}
+
+td,
+th {
+  border-bottom: 1px solid $border-color;
+}
+
+.table-body tr:nth-child(odd),
+.table-body th:nth-of-type(2n) {
+  background-color: #f2f2f2;
+}
+
+.btn-cancel,
+.btn-confirm {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.btn-cancel {
+  background: $red-button;
+}
+.btn-confirm {
+  background: $clear-button;
+  border: 2px solid $black-color;
+}
+
+.btn-plus,
+.btn-minus {
+  border: 0;
+  border-radius: 5px;
+  background: $dark-button;
+  color: $white-color;
+  cursor: pointer;
+  padding: 1rem 1.25rem;
+}
+
+.btn-plus {
+  margin-right: 0.5rem;
+}
